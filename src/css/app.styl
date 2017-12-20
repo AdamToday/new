@@ -1,0 +1,64 @@
+html {
+  background #ccc;
+  font-family: 'Arial', sans-serif;
+  font-size 16px;
+}
+html, body, #app{
+  height: 100%;
+  padding:0;
+  margin: 0;
+}
+p {
+  font-size:.8em;
+  line-height 1.45em;
+}
+.flex{
+  display:flex;
+}
+.flex-justify-space-around{
+  justify-content: space-around;
+}
+.m-1 {
+  margin: 40px;
+}
+.review-component{
+  padding: 40px;
+  margin:auto;
+  background:white;
+  min-width: 300px;
+  max-width: 700px;
+  min-height: 200px;
+  img{
+    max-width: 100%;
+  }
+  .star {
+    height: 30px;
+    width: 30px;
+    background: #ccc;
+    margin: 10px;
+    &.active {
+      background: yellow;
+    }
+  }
+
+
+  button{
+    margin-left 5px;
+  }
+
+  .reviews {
+    h1{
+      margin-bottom: 40px;
+    }
+    .review{
+      margin-bottom: 40px;
+      h3, h4{
+        margin-top:0;
+      }
+      .avatar{
+        height: 60px;
+        margin-right:10px;
+      }
+    }
+  }
+}
