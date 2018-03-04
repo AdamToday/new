@@ -3,7 +3,6 @@ export const model = {
   product: {
     name: 'The DoLeorean',
     image: `img/${process.env.NOW}/delorean.jpg`,
-    rating: 0,
 
   },
 
